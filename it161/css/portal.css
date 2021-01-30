@@ -48,14 +48,6 @@ a:hover {
     text-decoration: none;
 }
 
-iframe {
-    display: block;
-    margin: auto;
-    width: 90%;
-    height: 5700px;
-    border: 2px solid darkcyan;
-}
-
 footer {
     clear: both;
     text-align: center;
