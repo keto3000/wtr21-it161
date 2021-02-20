@@ -1,0 +1,52 @@
+/* BIG WEBSITE */
+
+html {
+    background-color:#ccc;
+}
+
+main {
+    background-color:#fff;
+    width:80%
+    margin:auto;
+}
+
+h1 a {
+    text-decoration: none;
+}
+
+section {
+    float:left;
+    width:65%;
+}
+
+aside {
+    float:right;
+    width:34%;
+}
+
+footer {
+    padding:1em;
+    text-align:center;
+    clear:both;
+}
+
+/* MOBILE STYLES */
+
+@media all and (max-width:600px) {
+    
+   main {
+    width:100%;
+}
+    
+   section {
+    float:none;
+    width:100%;
+ }
+    
+ aside {
+    float:none;
+    width:100;
+    
+}   
+    
+}
