@@ -24,6 +24,45 @@ aside {
     width:34%;
 }
 
+/* START - EMBED RESPONSIVELY STYLES */
+.embed-container { 
+	  position: relative;
+ 	  padding-bottom: 56.25%;
+         height: 0;
+         overflow: hidden;
+         max-width: 100%;
+ } 
+
+.embed-container iframe { 
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+ }
+
+/* END - EMBED RESPONSIVELY STYLES */
+
+/* HIDE AGENDA VIEW CALENDAR*/
+.embed-container.agenda-view {
+    display:none;
+}
+
+/* CALENDAR RULES FOR PHONE */
+@media all and (max-width:1440px) {
+    
+    /* Show Agenda View Calendar */
+    div.embed-container.agenda-view {
+        display:block;
+    }
+    
+    /* Hide Month View Calendar */
+    div.embed-container.month-view {
+        display:none;
+    }
+}
+
+
 footer {
     padding:1em;
     text-align:center;
