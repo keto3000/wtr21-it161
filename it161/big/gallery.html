@@ -7,6 +7,7 @@
   <meta charset="utf-8" />
   <link rel="stylesheet" href="css/big.css" />
   <link rel="stylesheet" href="css/nav.css" />
+  <link rel="stylesheet" href="css/lightbox.css" />
     <!-- jQuery -->
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <!-- MenuMaker Plugin -->
@@ -49,16 +50,22 @@
         <!-- START LEFT COLUMN -->
         <section>
              <h2 class="subheader">Lightbox II Gallery</h2>
-             <div>
+             <div class="gallery">
                <figure>
-                 <img src="images/breakfast-175x175.jpg" alt="Breakfast" />
+                 <a href="images/breakfast-800x600.jpg" data-lightbox="meals" data-title="Healthy Breakfast!">
+                 <img src="images/breakfast-175x175.jpg" alt="Breakfast" /></a>
                  <figcaption>Breakfast</figcaption>
                </figure>
-            
-            
-            
-            
-            
+               <figure>
+                 <a href="images/lunch-800x600.jpg" data-lightbox="meals" data-title="Classic Chicken Club!">  
+                 <img src="images/lunch-175x175.jpg" alt="Lunch" /></a>
+                 <figcaption>Lunch</figcaption>
+               </figure>
+               <figure>
+                 <a href="images/dinner-800x600.jpg" data-lightbox="meals" data-title="Festive Turkey Dinner!">
+                 <img src="images/dinner-175x175.jpg" alt="Dinner" /></a>
+                 <figcaption>Dinner</figcaption>
+               </figure>
             </div>
             
             
@@ -80,6 +87,6 @@
       <p><small>&copy; 2021 by <a href="contact.php">Contact Keith</a>, All Rights Reserved ~ <a href="https://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="https://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
     </footer>
   </main>
-     
- </body>
+<script src="js/lightbox.js"></script>
+</body>
 </html>

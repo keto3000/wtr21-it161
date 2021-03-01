@@ -24,6 +24,18 @@ aside {
     width:34%;
 }
 
+div.gallery {
+    text-align: center;
+}
+
+
+figure {
+    display:inline-block;
+    border:1px solid #000;
+    margin:.25%;
+}
+
+
 /* START - EMBED RESPONSIVELY STYLES */
 .embed-container { 
 	  position: relative;
