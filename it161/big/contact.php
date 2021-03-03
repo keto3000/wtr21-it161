@@ -40,10 +40,10 @@
     
         $toAddress = "keith.scarmato@seattlecentral.edu";  //place your/your client's email address here
         $toName = "Keith"; //place your client's name here
-        $website = "IT161 Contact Form ";  //place NAME of your client's website
+        $website = "BIG Website Contact Form ";  //place NAME of your client's website
 
-        echo loadContact('simple.php');#demonstrates a simple contact form
-        //echo loadContact('multiple.php');#demonstrates multiple form elements
+        //echo loadContact('simple.php');#demonstrates a simple contact form
+        echo loadContact('multiple.php');#demonstrates multiple form elements
 
 	?>
          
