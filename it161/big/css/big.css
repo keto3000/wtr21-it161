@@ -1,4 +1,6 @@
 /* BIG WEBSITE */
+/* big.css */
+
 
 html {
     background-color:#ccc;
@@ -10,9 +12,29 @@ main {
     margin:auto;
 }
 
+/* start text styling*/
+
 h1 a {
     text-decoration: none;
 }
+
+h2 {
+    margin: 1em 1em;    
+}
+
+h3{
+    padding: 0 0 0 1.5em;
+    font-size: 1.3em;
+}
+
+p {
+    margin: 2em 2em;
+    text-align: justify; /* this makes the text flow in the middle */
+    font-size: 1.3em;
+    line-height: 1.3em;
+}
+
+/* end text styling*/
 
 section {
     float:left;
@@ -22,6 +44,10 @@ section {
 aside {
     float:right;
     width:34%;
+}
+
+dt{
+    padding: 10px 20px 10px 0px;
 }
 
 div.gallery {
