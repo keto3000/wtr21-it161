@@ -1,29 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
-  <title>Keith Scarmato's Content Form</title>
+  <title>Keith Scarmato's Contact Form</title>
   <meta name="robots" content="noindex,nofollow" />
   <meta name="viewport" content="width=device-width" />
   <meta charset="utf-8" />
-  <link rel="stylesheet" href="css/portal.css" />
-  <link rel="stylesheet" href="css/nav.css" />
-  <link rel="stylesheet" href="css/forms.css"/>
+  <link rel="stylesheet" href="./css/big.css" />
+  <link rel="stylesheet" href="./css/nav.css" />
+  <link rel="stylesheet" href="./css/forms.css"/>
  </head>
  <body>
      <header>
      <h1>Keith Scarmato: Contact Form</h1>
-     <nav class="topnav" id="myTopnav">
-       <a href="index.html">Welcome</a>
-       <a href="elements.html">HTML Elements</a>
-       <a href="aia.html" >AIA</a>
-       <a href="big/index.html">BIG</a>
-       <a href="http://w3schools.com" target="_blank">W3 Schools</a>
-       <a href="https://www.linkedin.com/learning/" target="_blank">LinkedIn Learning</a>
-       <a href="flowchart.html">Flowchart</a>
-       <a href="fp/index.html">Final Project</a>
-       <a href="contact.php" class="active">Contact Keith</a>
-       <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-     </nav>
+     <nav id="cssmenu">
+          <ul>
+             <li><a href="../index.html"><i class="fa fa-fw fa-institution" aria-hidden="true"></i> WEB161</a></li>
+             <li><a href="index.html"><i class="fa fa-fw fa-home" aria-hidden="true"></i> BIG Website</a></li>
+             <li><a href="gallery.html"><i class="fa fa-fw fa-camera-retro" aria-hidden="true"></i> Lightbox II Gallery</a></li>
+              <!-- drop down for research topics pages -->
+             <li><a href="#"> Research Topics</a>
+                <ul>
+                    <li><a href="smo.html"><i class="fa fa-fw fa-thumbs-o-up" aria-hidden="true"></i> SMO</a></li>
+                    <li><a href="accessibility.html"><i class="fa fa-fw fa-globe" aria-hidden="true"></i> Accessibility</a></li>
+                    <li><a href="forms.html"><i class="fa fa-fw fa-desktop" aria-hidden="true"></i> Web Forms</a></li>
+                </ul>
+             </li>
+             <!-- drop down for google tool pages -->
+             <li><a href="#"> Google Tools</a>
+                <ul>
+                   <li><a href="seo.html"><i class="fa fa-fw fa-desktop" aria-hidden="true"></i> SEO</a></li>
+                   <li><a href="calendar.html"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Calendar</a></li>
+                   <li><a href="map.html"><i class="fa fa-fw fa-map-o" aria-hidden="true"></i> Map</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.php"><i class="fa fa-check-square-o" aria-hidden="true"></i> Contact me</a></li>
+          </ul>
+</nav>
      </header>
      
    <div class="wrapper">

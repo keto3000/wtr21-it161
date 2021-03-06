@@ -7,7 +7,7 @@
   <meta charset="utf-8" />
   <link rel="stylesheet" href="css/portal.css" />
   <link rel="stylesheet" href="css/nav.css" />
-  <link rel="stylesheet" href="css/forms.css"/>
+  <link rel="stylesheet" href="css/forms.css" />
  </head>
  <body>
      <header>
