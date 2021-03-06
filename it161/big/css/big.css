@@ -14,6 +14,10 @@ main {
 
 /* start text styling*/
 
+h1 {
+    color: #551A8B;
+}
+
 h1 a {
     text-decoration: none;
 }
