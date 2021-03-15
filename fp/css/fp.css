@@ -1,0 +1,113 @@
+/* FP WEBSITE */
+/* fp.css */
+
+
+html {
+    background-color:#fff;
+}
+
+main {
+    background-color:#fff;
+    width:80%;
+    margin:auto;
+}
+
+/* start text styling*/
+
+h1 {
+    color: #551A8B;
+}
+
+h1 a {
+    text-decoration: none;
+}
+
+h2 {
+    margin: 1em 1em;    
+}
+
+h3{
+    padding: 0 0 0 1.5em;
+    font-size: 1.3em;
+}
+
+h4{
+    padding: 0 0 0 1.5em;
+    font-size: 1em;
+}
+
+
+section {
+    float:left;
+    width:65%;
+}
+
+aside {
+    float:right;
+    width:34%;
+}
+
+
+figure {
+    display:inline-block;
+    border:1px solid #000;
+    margin:.25%;
+}
+
+
+/* START - EMBED RESPONSIVELY STYLES */
+.embed-container { 
+	  position: relative;
+ 	  padding-bottom: 56.25%;
+         height: 0;
+         overflow: hidden;
+         max-width: 100%;
+} 
+
+.embed-container iframe { 
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+ }
+
+/* END - EMBED RESPONSIVELY STYLES */
+
+footer {
+    padding:1em;
+    text-align:center;
+    clear:both;
+}
+
+
+
+/* Desktops, Laptops and Tablets */
+
+/* @media all and (max-width:1280px) {
+ }
+
+*/
+
+}
+
+/* MOBILE STYLES */
+
+@media all and (max-width:767px) {
+    
+   main {
+    width:100%;
+}
+    
+   section {
+    float:none;
+    width:100%;
+ }
+    
+ aside {
+    float:none;
+    width:100%;
+    
+}   
+    
+}
