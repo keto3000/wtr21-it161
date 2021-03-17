@@ -5,50 +5,9 @@
   <meta name="viewport" content="width=device-width,inital-scale=1" />  
   <meta name="robots" content="noindex,nofollow" />
   <title>My Final Project template</title>
-   
-  /* all these test styles need to move to external stylesheet */
+ 
      
-     <style>
-  aside {
-     width: 400px;
-     background: #f097f0;
-}
-       
-         .left {
-             float: left;
-  } 
-         
-         aside left-aside {
-             width: 190px;  /* 47.5% */
-             height: 100px;
-             background: #efef16;
- }
-         
-         .right {
-             float: right;
-         }
-         
-         aside .right-aside {
-             width: 190px;  /* 47.5% */
-             height: 100px;
-             background: #00fff5;
-         }
-         
-         .slideshow {
-             clear: both
-         }
-         
-         
-         .mySlides {
-             display:none
-         }
-         
-
-      
-   </style> 
-     
-     
-  ---<link rel="stylesheet" href="css/fp.css" />
+  ---<link rel="stylesheet" href="css/kastest.css" />
   <link rel="stylesheet" href="css/fpnav.css" />
     <!-- jQuery -->
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
@@ -59,16 +18,13 @@
     <script src="js/script.js"></script>
     
      
-     /* copy this code into my own css stylesheet */
-     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+ 
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
      
      
  </head>
- 
-    
-    <body>
-    
-     <main>
+  <body>
+   <main>
     <header>
          <h1><a href="template.html">My Final Project template</a></h1>
          <nav id="cssmenu">
@@ -88,38 +44,42 @@
 `       </nav>
     </header>    
         
+    <!--Two Equal Columns w/Column 2 split */
         <!-- START LEFT COLUMN -->
-        <section>
-             <h2 class="subheader">From My Kitchen...</h2>
-            <img src="images/tiled-placeholder-600x300.png" alt="tiled PLACEHOLDER" />
-                   
-        </section>
+       <div class="row">
+         <div class="column left" style="background-color:#aaa;">
+         <h3>From My Kitchen...</h3>
+          <img src="img_tiles.jpg" alt="6 tiled kitchen images" width="300" height="200">
+         </div>
         <!-- END LEFT COLUMN -->
 
         <!-- START RIGHT COLUMN -->
-        <aside >
-            
-        <div class="left left-aside">
-            <img src="images/desktop.jpg" alt="PLACEHOLDER-about image goes here" />
-            <img src="images/desktop.jpg" alt="PLACEHOLDER-music image goes here" />
+        <div class="column right right-a" style="background-color:#ffff99;">
+        <h2>Column 2a</h2>
+         <img src="selfie-KJ.jpg" alt="About KJ" width="150" height="100">
+         <img src="planeyflyband.jpg" alt="Music" width="125" height="110"> 
         </div>
-        <div class="right right-aside">
-            <img src="images/desktop.jpg" alt="PLACEHOLDER-food image goes here" />
-            <img src="images/desktop.jpg" alt="PLACEHOLDER-drink image goes here" />
+  
+        <div class="column right right-b" style="background-color:#ffcccc;">
+       <h2>Column 2b</h2>
+        <img src="Featured food" alt="Food" width="150" height="100">
+        <img src="Featured drink" alt="Drink" width="125" height="110"> 
         </div>
-            
-       </aside>
-         
-         
-       <!-- END RIGHT COLUMN -->
-         
-         
+     </div>
+         <!-- END RIGHT COLUMN -->
+       
+       <hr style="width:100%;text-align:left;margin-left:0">
+       
+      <!--Start of Showcase Food w3c Auto Gallery -->   
        <div class="slideshow"> <h2 class="w3-center">Automatic Slideshow</h2></div>
 
        <div class="w3-content w3-section" style="max-width:500px">
             <img class="mySlides" src="img_la.jpg" style="width:100%">
             <img class="mySlides" src="img_ny.jpg" style="width:100%">
             <img class="mySlides" src="img_chicago.jpg" style="width:100%">
+            <img class="mySlides" src="img_boston.jpg" style="width:100%">
+            <img class="mySlides" src="img_phoenix.jpg" style="width:100%">
+            <img class="mySlides" src="img_denver.jpg" style="width:100%">
        </div>
 
 <script>

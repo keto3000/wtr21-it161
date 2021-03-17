@@ -1,0 +1,93 @@
+/* my test css for fp main template page */
+/*kastest.css */
+
+html {
+    background-color:#fff;
+}
+
+main {
+    background-color:#fff;
+    width:80%;
+    margin:auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that float next to each other w/Column2 split */
+.column {
+  float: left;
+  padding: 5px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  width: 50%;
+}
+
+.right-a {
+  float: left;
+  width: 25%;
+}
+
+.right-b {
+  float: right;
+  width: 25%;
+}
+     
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+    padding:1em;
+    text-align:center;
+    clear:both;
+}
+
+
+
+/* Desktops, Laptops and Tablets */
+
+/* @media all and (max-width:1280px) {
+ }
+
+*/
+
+}
+
+/* MOBILE STYLES */
+
+@media all and (max-width:767px) {
+    
+   main {
+    width:100%;
+}
+    
+   * column {
+    float:none;
+    width:100%;
+ }
+    
+ /*aside {
+    float:none;
+    width:100%; */
+    
+}   
+    
+}
+
+
+
+
+
