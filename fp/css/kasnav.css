@@ -1,0 +1,103 @@
+/* FP WEBSITE */
+/* kasnav.css is the active nav for FP */
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+/* START Header & DrawerToggleButton-Jose Lopez */
+
+header {
+    background-image: url(/images/kj-corned-beef1080x1338.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+h1 a {
+    padding-left: 15px;
+    color: #fff;
+}
+
+.top-header {
+    float: left;
+}
+
+.separator-line {
+    background-color: white;
+    width: 100%;
+    height: 1px;
+    display: inline-block;
+}
+
+
+.toggle-menu{
+    display: none;
+}
+
+.toggle-menu a {
+    color: #fff;
+}
+
+.toggle-menu ul {
+    float: right;
+    list-style-type: none;
+} 
+
+.toggle_button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
+    width: 30px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+.toggle_button:focus {
+    outline: none;
+  }
+  
+.toggle_button_line {
+    width: 25px;
+    height: 3px;
+    background: #fff;
+}
+
+.hamburger-button button {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.hamburger-button {
+    padding-left: 50px;
+}
+
+
+/*Media queries*/
+
+/* Mobile STYLES */
+
+@media all and (max-width:767px) {
+    h1 {
+        font-size: 20px;
+    }
+    
+    .toggle-menu {
+        display: none;
+    }
+    
+}
+
+/* Desktop, Laptop, Tablet STYLES */
+
+@media all and (min-width:768px) {
+
+    .toggle-menu {
+        display: none;
+}
+}
+
+/* END Header & DrawerToggleButton-Jose Lopez */

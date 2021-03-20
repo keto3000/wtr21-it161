@@ -1,93 +1,141 @@
 /* my test css for fp main template page */
 /*kastest.css */
 
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
 html {
     background-color:#fff;
 }
 
 main {
     background-color:#fff;
-    width:80%;
-    margin:auto;
+    margin: auto;
 }
 
 * {
   box-sizing: border-box;
 }
 
+.top-header {
+    position:relative;
+ }
+
+
+
 /* Create two equal columns that float next to each other w/Column2 split */
-.column {
+
+/* .column {
   float: left;
   padding: 5px;
-  height: 300px; /* Should be removed. Only for demonstration */
-  
-}
+  height: 400px;
+ }
+
 
 .left {
-  width: 50%;
+   float: left;
+   padding: 50px 0px 10px 150px;
+   width: 50%;
 }
 
 .right {
   width: 50%;
+      
 }
 
-.right-a {
+*/
+
+/*.right-a {
   float: left;
+  padding: 10px 10px 10px 10px;
   width: 25%;
 }
 
 .right-b {
-  float: right;
+  float: left;
+  padding: 10px 10px 10px 10px;
   width: 25%;
 }
-     
+   */  
 
 /* Clear floats after the columns */
-.row:after {
+
+
+/* .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-footer {
-    padding:1em;
-    text-align:center;
-    clear:both;
-}
-
-
-
-/* Desktops, Laptops and Tablets */
-
-/* @media all and (max-width:1280px) {
- }
-
 */
 
+/* START - EMBED RESPONSIVELY STYLES */
+
+.embed-container { 
+	  position: relative;
+ 	  padding-bottom: 56.25%;
+         height: 0;
+         overflow: hidden;
+         max-width: 100%;
+} 
+
+.embed-container iframe { 
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+ }
+
+/* END - EMBED RESPONSIVELY STYLES */
+
+
+
+
+footer {
+    padding:1em;
+    font-style: arial bold;
+    font-size: 20px;
+    text-align:center;
+    font-weight: 100; color: #f2f20b;
+    clear:both;
+    background-color: darkred;
 }
 
-/* MOBILE STYLES */
+
+/* MEDIA QUERIES */
+
+/* Mobile STYLES */
 
 @media all and (max-width:767px) {
-    
-   main {
+      
+    main {
     width:100%;
-}
+    }
     
-   * column {
+ /*  * column .left .right .right-a .right-b {
     float:none;
-    width:100%;
+    width:100%; 
  }
+ 
+}  */
     
- /*aside {
-    float:none;
-    width:100%; */
-    
-}   
-    
+    .row {
+    text-align: center;
+    width:100%;
+    }
+
+    .row column-right-a {
+        margin:auto;
+    }
 }
 
+/* Desktop, Laptop, Tablet STYLES */
 
+@media all and (min-width:768px) {
 
-
-
+    .row {
+        width: 80%;
+        margin: auto;
+        display: flex;
+    }
+}
