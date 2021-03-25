@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-US">
+ <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,inital-scale=1" />  
+  <meta name="robots" content="noindex,nofollow" />
+  <title>RECIPE Item View</title>
+  <link rel="stylesheet" href="/css/kastest.css" />
+  <link rel="stylesheet" href="/css/kasnav.css" />
+    <style>
+        header {
+      background-image: url("../images/homepage/frommykitcken.jpg"); 
+    }
+    </style>
+    
+    
+ </head>
+   <body>
+    <main>
+     <header>
+         <h1><a href="/template.html">Beef &amp;Broccoli Recipe</a></h1>
+         
+<!-- drop down for toggle menu pages -->
+      <div class="hamburger-button" type="button" value="Show DIV" id="bt" onclick="toggle(this)">
+            <button class="toggle_button">
+                <div class="toggle_button_line"></div>
+                <div class="toggle_button_line"></div>
+                <div class="toggle_button_line"></div>
+            </button>
+      </div> 
+
+    <!-- drop down for toggle menu pages -->
+      <div class="toggle-menu" style=" padding:10px;" id="cont">
+         <ul>
+             <li><a href="/template.html">HOME</a></li>
+             <li><a href="/food.html" >FOOD</a></li>
+             <li><a href="/drink.html">DRINK</a></li>
+             <li><a href="/music.html" > MUSIC</a></li>
+             <li><a href="/contact.php">CONTACT</a></li>
+        </ul>
+      </div>
+      <div class="separator-line"></div>
+        
+    </header>
+      <div class="recipe-about"> 
+         <ul >
+            <li><span class="label">PREP TIME:</span><span class="info yield"> 1 hour</span>
+            </li>
+            <li><span class="label">COOK TIME:</span><span class="info"> 35 minutes</span>
+            </li>
+            <li><span class="label">YIELD:</span><span class="info"> Serves 4</span>
+            </li>
+        </ul>
+      </div>
+        
+<!-- START Listed ingredients -->
+      <section class="ingred">
+        <h2 id="recipe-header">Ingredients</h2>
+           <ul>
+              <li>A pinch of this</li>
+              <li>A pinch of that</li>
+              <li>A smidge of everything else</li>
+            </ul>
+      </section>
+        
+<!-- END Listed ingredients -->
+
+<!-- START Prep directions -->
+      <aside class="prep">
+        <h2 id=recipe-header>Preparation</h2>
+           <ol>
+              <li>Slice it, Dice it</li>
+              <li>Mix it all up</li>
+              <li>Cook it until done</li>
+           </ol>
+      </aside>
+<!-- END Prep directions -->
+      
+<!-- START toggle menu SCRIPT -->
+<script>
+    
+    /*function for toggle menu*/
+  function toggle(ele) {
+        var cont = document.getElementById('cont');
+        if (cont.style.display == 'block') {
+            cont.style.display = 'none';
+
+            document.getElementById(ele.id).value = 'Show DIV';
+        }
+        else {
+            cont.style.display = 'block';
+            document.getElementById(ele.id).value = 'Hide DIV';
+        }
+    }
+     
+</script> 
+<!-- END toggle menu SCRIPT -->    
+         
+    
+     
+     <footer>
+      <p><small>&copy; 2021 by <a href="contact.php">Contact KJ</a>, All Rights Reserved ~ <a href="https://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="https://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
+    </footer>
+  </main>
+ </body>
+</html>

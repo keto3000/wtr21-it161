@@ -6,15 +6,20 @@
 /* START Header & DrawerToggleButton-Jose Lopez */
 
 header {
-    background-image: url(/images/kj-corned-beef1080x1338.jpg);
+    background-image: url("../images/homepage/kjcornedbeef.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
 }
 
+h1 {
+    margin: 0;
+}
+
 h1 a {
     padding-left: 15px;
     color: #fff;
+    text-decoration: none;  
 }
 
 .top-header {
@@ -27,7 +32,6 @@ h1 a {
     height: 1px;
     display: inline-block;
 }
-
 
 .toggle-menu{
     display: none;
@@ -53,11 +57,11 @@ h1 a {
     cursor: pointer;
     padding: 0;
     box-sizing: border-box;
-  }
+}
   
 .toggle_button:focus {
     outline: none;
-  }
+}
   
 .toggle_button_line {
     width: 25px;
@@ -76,20 +80,7 @@ h1 a {
 }
 
 
-/*Media queries*/
-
-/* Mobile STYLES */
-
-@media all and (max-width:767px) {
-    h1 {
-        font-size: 20px;
-    }
-    
-    .toggle-menu {
-        display: none;
-    }
-    
-}
+      /*Media queries*/
 
 /* Desktop, Laptop, Tablet STYLES */
 
