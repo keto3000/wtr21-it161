@@ -157,8 +157,19 @@ img {
 /* END main template page */
     
 footer {  
+    font-family: arial bold;
     font-size: 20px;
+    text-align:center;
+    font-weight: 100; color: #f2f20b;
+    clear:both;
+    background-color: darkred;
 }
+    
+footer p {
+    text-align:center;
+    margin: 0;
+}
+    
     
 /* START FOOD & DRINK INDEX pages*/
 .flex-container {
