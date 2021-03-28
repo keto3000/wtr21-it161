@@ -96,10 +96,15 @@ section {
     width:100%;
  }
     
- aside {
+aside {
     float:none;
     width:100%;
 }   
+
+aside ul {
+    text-align: center;
+    list-style-type: none;
+}
 
 .recipe-about ul {
     height: 50px;

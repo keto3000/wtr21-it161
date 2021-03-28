@@ -12,10 +12,6 @@ header {
     height: 700px;
 }
 
-h1 {
-    margin: 0;
-}
-
 h1 a {
     padding-left: 15px;
     color: #fff;
@@ -32,6 +28,14 @@ h1 a {
     height: 1px;
     display: inline-block;
 }
+
+h1 {
+    margin: 0;
+    padding-left: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
 
 .toggle-menu{
     display: none;
